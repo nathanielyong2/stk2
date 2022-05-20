@@ -114,6 +114,5 @@ dmypy.json
 .pyre/
 
 #Other
-stk.db
 /node_modules
 /client/node_modules
