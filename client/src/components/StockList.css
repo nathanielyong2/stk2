@@ -1,0 +1,28 @@
+h1 {
+    margin: 40px 0 0;
+}
+
+span {
+    color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid #D3D3D3;
+}
+
+td {
+    padding: 5px 35px 5px 0;
+}
+
+
+
+

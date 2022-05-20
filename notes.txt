@@ -1,0 +1,42 @@
+---------------------------------------
+Install software
+---------------------------------------
+- Download and install 
+    NodeJS
+    Windows Git
+    VSCode
+
+---------------------------------------
+Configure software
+---------------------------------------
+
+- Python - pip install the following packages : flask, flask_restful, flask_jwt, flask_cors, pyodbc
+
+- Git - configure username and password
+	git config --global user.name "andrewscyongwork1"
+	git config --global user.email "andrewscyongwork1@gmail.com"
+    git config --list
+    Note : Go to Windows credential manager (in Control Panel) to view stored github password.
+
+- VSCode 
+    - Change terminal from Powershell to Cmd - Ctrl-Shift-P to find "Terminal: Select Default Profile" and select cmd
+    - Change to autosave - Goto File > Autosave (toggle on)
+
+---------------------------------------
+Launch the webapp
+---------------------------------------
+
+- cd /work/stk2/ & run
+    1. npm install
+    2. npm start
+
+- cd /work/stk2/client/ & run
+    1. npm install 
+    2. npm start
+
+- View the webpage on http://localhost:3000
+- Test by searching for stk ticker MSFT with date range between 2021-08-01 & 2021-08-13
+
+Deployment
+
+- 
