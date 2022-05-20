@@ -72,7 +72,7 @@ app.get('*', (req, res) => {
 });
   
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('stkdb', (err) => {
+const db = new sqlite3.Database('stk.db', (err) => {
     if (err) {
         console.log(err.message);
         throw err;
